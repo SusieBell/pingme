@@ -1,6 +1,6 @@
 pipeline{
 agent any
-    stages{
+   stages{
       stage("Build App"){
         steps{
           sh "mvn package"
